@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Bubble Game</title>
+</head>
+
+<body>
+    <div id="main">
+        <div class="header">
+            <h1 class="main-head">Hit the Bubble!</h1>
+            <img src="./Assets/target.png" alt="img">
+        </div>
+        <br>
+        <div class="main-box">
+            <div class="top-panel">
+                <div class="score-side">
+                    <div class="box">
+                        <h2>Hit</h2>
+                        <div class="score-box" id="hitVal">5</div>
+                    </div>
+                    <div class="box">
+                        <h2>Timer</h2>
+                        <div class="score-box" id="timerVal">60</div>
+                    </div>
+                    <div class="box">
+                        <h2>Score</h2>
+                        <div class="score-box" id="scoreVal">0</div>
+                    </div>
+                </div>
+                <div class="box">
+                    <button id="resetbtn">Reset</button>
+                </div>
+            </div>
+            <div class="bottom-panel" id="bottom-panel">
+            </div>
+        </div>
+        <p class="footer-text">Created by <a href="https://imyashgogia.netlify.app/" class="noTextDecor">@Yash
+                Gogia</a></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
